@@ -1,0 +1,63 @@
+html{
+  height: auto;
+  width: auto;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+header{
+  padding-bottom: 0;
+  #topnav{
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    font-size: 2vw;
+  }
+  #nameDirect{
+    float: left;
+    font-size: 2vw;
+    text-decoration: none;
+  }
+  #cartDirect{
+    float: right;
+    padding-right: 2%;
+    text-decoration: none;
+  }
+  #headerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  ul{
+    text-align: center;
+    padding-bottom: 2%;
+    a{
+      text-decoration: none;
+      padding-left: 2.5%;
+      padding-right: 2.5%;
+    }
+  }
+  #bottomul{
+    text-align: center;
+    font-size: 2vw;
+    border-bottom: thin solid blue;
+    margin-bottom: 0;
+  }
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #0781f2;
+}
+a:clicked{
+  color: #f6e2c1;
+}
+#findcali{
+  font-size: 4vw;
+  text-align: center;
+  padding-bottom: 2%;
+  margin-top: 0;
+  border-bottom: thin solid blue;
+  }
