@@ -7,7 +7,6 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 
 	<!-- <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script> -->
-	<!-- <script src="http://http://backbonejs.org/backbone-min.js"></script> -->
 	<!-- <script src="http://underscorejs.org/underscore-min.js"></script> -->
 
 	<script src="js/app.js"></script>
@@ -17,49 +16,64 @@
 <body>
 	<header>
 		<ul id="topnav">
-			<a class="navop"> &lt; &#94; &#108; &#105; &#70; </a>
-			<a class="navop">Cart / "0" items</a>
+			<a  href="./index.html" class="navop" id="nameDirect">&lt; &#94; &#108; &#105; &#70; </a>
+			<a class="navop" id="cartDirect" href="./cart.html">Cart / 0 items</a>
 		</ul>
 		<img id="headerimg" src="./images/Alternatedesign2.jpg" />
-		<ul>
+		<ul id="bottomul">
 			<a href="./productspage.html">Products</a>
 			<a href="./contactpage.html">Contact</a>
-			<a href="./mainpage.html">Our Story</a>
+			<!-- <a href="./index.html">Our Story</a> -->
 		</ul>
 		<br class="caliline"/>
 	</header>
 
-	<body>
+	<main>
     <div id="productsviewform">
-			<div class="product">
-				<img src="./images/red-x22.jpg" />
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
 				<p>Hat</p>
 				<p>Price: $</p>
-			</div>
-			<div class="product">
-				<img src="./images/red-x22.jpg" />
-				<p>Computer Sticker</p>
-				<p>Price: $</p>
-			</div>
-			<div class="product">
-				<img src="./images/red-x22.jpg" />
+			</a>
+			<a class="product" href="./products/bumpersticker.html">
+				<img src="./images/IMG_0262.jpg" />
+				<p>Bumper Sticker</p>
+				<p>Price: $2</p>
+			</a>
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
 				<p>T-Shirt</p>
 				<p>Price: $$</p>
-			</div>
-			<div class="product">
-				<img src="./images/red-x22.jpg" />
+			</a>
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
+				<p>Women's T-Shirt</p>
+				<p>Price: $$</p>
+			</a>
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
 				<p>Tank</p>
 				<p>Price: $$</p>
-			</div>
+			</a>
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
+				<p>Woman's Tank</p>
+				<p>Price: $$</p>
+			</a>
+			<a class="product">
+				<img src="./images/comingsoon.jpg" />
+				<p>Sunglasses</p>
+				<p>Price: $</p>
+			</a>
 		</div>
-	</body>
+	</main>
 
 	<footer>
-		<ul>
-			<li>Products</li>
-			<li>Contact</li>
+		<ul id="footerul">
+			<a href="./productspage.html">Products</a>
+			<a href="./contactpage.html">Contact</a>
 		</ul>
-		<p>Half baked and deep fried for your enjoyment by: <a id="clayslink" href="http://claytongriswold.com" target="_blank">Clayton Griswold</a></p>
+	<p>Half baked and deep fried for your enjoyment by The Calif Creators. UI Development by <a id="clayslink" href="http://claytongriswold.com" target="_blank">Clayton Griswold</a></p>
 	</footer>
 
 </body>

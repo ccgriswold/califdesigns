@@ -5,9 +5,10 @@ var browserify = require('gulp-browserify');
 gulp.task('default', ['html', 'js', 'css', 'images']);
 
 gulp.task('html', function(){
-  return gulp.src('./*html')
-    .pipe(gulp.dest('./public'));
+  return gulp.src('./*.html')
+    .pipe(gulp.dest('./public/'));
 });
+
 
 gulp.task('css', function(){
   return gulp.src('./scss/main.scss')

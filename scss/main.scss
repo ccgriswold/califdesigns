@@ -5,17 +5,26 @@ html{
   background-color: black;
   color: white;
 }
+a{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #0781f2;
+}
 header{
   padding-bottom: 0;
   #topnav{
     display: block;
     justify-content: space-between;
     padding-bottom: 5%;
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   #nameDirect{
     float: left;
-    font-size: 2vw;
+    font-size: 3vw;
     text-decoration: none;
   }
   #cartDirect{
@@ -28,6 +37,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    height: 50%;
   }
   ul{
     text-align: center;
@@ -45,19 +55,123 @@ header{
     margin-bottom: 0;
   }
 }
-a{
-  color: white;
+//Finished header section
+//Footer section
+footer{
+  #footerul{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    a{
+      font-size: 2.5vw;
+      text-decoration: none;
+      // padding-left: 5%;
+      padding-right: 5%;
+    }
+  }
+  p{
+    font-size: 1.5vw;
+    padding-top: 5%;
+  }
 }
-a:hover{
-  color: #0781f2;
-}
-a:clicked{
-  color: #f6e2c1;
-}
+//End of footer
+//Start of mainpage.html
 #findcali{
-  font-size: 4vw;
+  font-size: 5vw;
   text-align: center;
   padding-bottom: 2%;
   margin-top: 0;
   border-bottom: thin solid blue;
   }
+#products{
+  font-size: 3vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  border: thin solid grey;
+}
+//Start of Products page
+#productsviewform{
+  display: flex;
+  flex-wrap: wrap;
+  height: 71vh;
+  width: 95%;
+  justify-content: space-around;
+  overflow: auto;
+  margin-left:auto;
+  margin-right:auto;
+  .product{
+    padding: 2%;
+    img{
+      width: 30vw;
+    }
+    p{
+      text-align: center;
+      font-size: 2.5vw;
+    }
+  }
+}
+//End products page
+//Begin Contact page
+#contactpageform{
+  h2{
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom:2%;
+    margin-top: 0;
+    border-bottom: thin solid blue;
+  }
+  form{
+    font-size: 2.5vw;
+    display:block;
+    div{
+      p{
+        display: inline-block;
+      }
+      input{
+        border-radius: 15px;
+        width: 75%;
+        height: 4vw;
+        display: inline-block;
+        overflow: auto;
+        word-wrap: break-word;
+        font-size: 3vw;
+        margin-left: 5%;
+        background-color: transparent;
+        color: white;
+      }
+      input:hover{
+        background-color:blue;
+      }
+      #namespace{
+        padding-right: 2%;
+      }
+      #emailspace{
+        padding-right: 2%;
+      }
+      #subspace{
+        padding-right: 1%;
+      }
+    }
+  }
+  #sendButton{
+    button{
+      width: 80%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 4vw;
+      border-radius: 20px;
+      border: thick solid #2202a3;
+      background-color: #2202a3;
+      color: white;
+    }
+    button:hover{
+      background-color: #025e5b;
+      border: thick solid #025e5b;
+
+    }
+  }
+}

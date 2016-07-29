@@ -7,7 +7,6 @@
 	<link href="css/main.css" rel="stylesheet" type="text/css" />
 
 	<!-- <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script> -->
-	<!-- <script src="http://http://backbonejs.org/backbone-min.js"></script> -->
 	<!-- <script src="http://underscorejs.org/underscore-min.js"></script> -->
 
 	<script src="js/app.js"></script>
@@ -17,36 +16,36 @@
 <body>
 	<header>
 		<ul id="topnav">
-			<a class="navop"> &lt; &#94; &#108; &#105; &#70; </a>
-			<a class="navop">Cart / "0" items</a>
+			<a  href="./index.html" class="navop" id="nameDirect">&lt; &#94; &#108; &#105; &#70; </a>
+			<a class="navop" id="cartDirect" href="./cart.html">Cart / 0 items</a>
 		</ul>
 		<img id="headerimg" src="./images/Alternatedesign2.jpg" />
-		<ul>
+		<ul id="bottomul">
 			<a href="./productspage.html">Products</a>
 			<a href="./contactpage.html">Contact</a>
-			<a href="./mainpage.html">Our Story</a>
+			<!-- <a href="./index.html">Our Story</a> -->
 		</ul>
 		<br class="caliline"/>
 	</header>
 
-	<body>
+	<main>
     <div id="contactpageform">
       <h2>Contact Us</h2>
       <form action="submit" method="push">
         <div id="name">
-          <p>Name</p>
+          <p id="namespace">Name</p>
           <span><input type="text" name="name" /></span>
         </div>
         <div id="email">
-          <p>Email</p>
+          <p id="emailspace">Email</p>
           <span><input type="text" name="email" /></span>
         </div>
         <div id="messageSub">
-          <p>Subject</p>
+          <p id="subspace">Subject</p>
           <span><input type="text" name="subject" /></span>
         </div>
         <div id="message">
-          <p>Message</p>
+          <p id="messspace">Message</p>
           <span><input type="text" name="message" /></span>
         </div>
         <br>
@@ -55,14 +54,14 @@
         </div>
       </form>
     </div>
-	</body>
+</main>
 
 	<footer>
-		<ul>
-			<li>Products</li>
-			<li>Contact</li>
+        <ul id="footerul">
+            <a href="./productspage.html">Products</a>
+			<a href="./contactpage.html">Contact</a>
 		</ul>
-		<p>Half baked and deep fried for your enjoyment by: <a id="clayslink" href="http://claytongriswold.com" target="_blank">Clayton Griswold</a></p>
+		<p>Half baked and deep fried for your enjoyment by The Calif Creators. UI Development by <a id="clayslink" href="http://claytongriswold.com" target="_blank">Clayton Griswold</a></p>
 	</footer>
 
 </body>
